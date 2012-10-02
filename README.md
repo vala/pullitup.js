@@ -30,7 +30,12 @@ A real example will clarify things for you while I don't have time to write bett
 
 ## Example use :
 
-With Coffeescript :
+There is a demo folder in the repo, you can clone it and open demo/index.html to try a (maybe too) simple demo.
+
+Here are two examples with both Coffee and JS.
+
+
+* With Coffeescript :
 
 ```coffeescript
 $ ->
@@ -45,7 +50,7 @@ $ ->
     alwaysVisible: true
 ```
 
-With Javascript :
+* With Javascript :
 
 ```javascript
 $(function() {
@@ -59,17 +64,20 @@ $(function() {
         height: h / 2
     },
     alwaysVisible: true
+  });
 });
 ```
 
 ## Work in progress
 
 This library was designed for a specific project but with the goal of being adaptable to as many cases as posible.
+
 Some more real world cases will make it better !
 
 ## Dependencies
 
 PullItUp.js depends on jQuery only
+
 jQuery.easing plugin can be used to specify other easing methods to the `start` and `end` transitions
 
 
