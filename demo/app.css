@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 15000px;
+  overflow-x: hidden;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.placeholder {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px #CCC;
+  z-index: 100;
+}
+
+#placeholder-1 {
+  background: red;
+}
+
+#placeholder-2 {
+  background: green;
+}
+
+#placeholder-3 {
+  background: yellow;
+}
+
+#background {
+  width: 4800px;
+  height: 2400px;
+  z-index: 10;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix {
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+#background #fond2, #background #fond3, #background #fond4 {
+  float: left;
+}
+
+
+#camtar {
+  width: 244px;
+  height: 149px;
+  z-index: 150;
+}
+
+#camtar img {
+  width: 100%;
+  height: 100%;
+}
